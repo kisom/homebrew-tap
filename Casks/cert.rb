@@ -17,13 +17,13 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "f57b24f00b1f14a1cdd5d4fcddc541a1e52c6daa71854d474922eafa61bddf23"
+      sha256 "deb3e4e78674b33a325d705a3527aff40935ff6227f6268253657a7d19a671ff"
       binary "cert_darwin_amd64_v1.4.0", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "836f0e1d66846fed2fd84f70c80c36b7661e5d27eb39474d0e78d0cf5f945be8"
+      sha256 "843bbbc35061ef5e73ebf217b6e61cd3782df4916815c9e541d1427c8a190a7c"
       binary "cert_darwin_arm64_v1.4.0", target: "cert"
     end
   end
@@ -32,13 +32,13 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "f743e938cd677b6111dbc1642835732e248d9a1501629137d866dfd9eeb3c086"
+      sha256 "69496769a513d3f457a44fc73b2689b0b6b49b6a4aa4f426ff124d0f3d8d8ec5"
       binary "cert_linux_amd64_v1.4.0", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "989c8f2fbe2d5585644930193eed3d3126bcf55386782c2a7be5fcc5c0b1d29d"
+      sha256 "483e071706f9437d91c870f6357710af781691c6831a90fd9627b91cdd8fe6c1"
       binary "cert_linux_arm64_v1.4.0", target: "cert"
     end
   end
