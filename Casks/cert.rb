@@ -3,7 +3,7 @@ cask "cert" do
   name "cert"
   desc "Certificate and TLS swiss army knife."
   homepage "https://github.com/kisom/cert"
-  version "1.3.9"
+  version "1.3.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,14 +13,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Darwin_x86_64 #{version}",
         using: :homebrew_curl
-      sha256 "2e88be487584b7559d5a18c2dbf80bd6ccad2905392238981841396ca538766e"
-      binary "cert_Darwin_x86_64 1.3.9", target: "cert"
+      sha256 "63f583fadea9764697abdf33e24a7b5718466f8fb34056dd8c5089215588f1c8"
+      binary "cert_Darwin_x86_64 1.3.10", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Darwin_arm64 #{version}",
         using: :homebrew_curl
-      sha256 "3b531904010fc6d7cddaaa8ab935d8c13718573990aaac9e508c509ccb0830fe"
-      binary "cert_Darwin_arm64 1.3.9", target: "cert"
+      sha256 "95e23ed2c08bc2d6fdb9498cdb2e5d509c80ab7e32a4408c37ae7019ca457dbf"
+      binary "cert_Darwin_arm64 1.3.10", target: "cert"
     end
   end
 
@@ -28,14 +28,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Linux_x86_64 #{version}",
         using: :homebrew_curl
-      sha256 "ae4ba8aee17012541951a50e74d28b540cc80cc83830f0641cab6002bb82787a"
-      binary "cert_Linux_x86_64 1.3.9", target: "cert"
+      sha256 "8f7558b8868da620c95863fecd34547754bc06b41f86c527d0e62e3639feb2cc"
+      binary "cert_Linux_x86_64 1.3.10", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Linux_arm64 #{version}",
         using: :homebrew_curl
-      sha256 "733a29103a4b444f3dd34423d8a01363d70971bf9bb0e3ff6db752cc415ed281"
-      binary "cert_Linux_arm64 1.3.9", target: "cert"
+      sha256 "fb124ae82c73aa87ea4cd7410eeb230a555fa63075a940c9afa723280445d2e9"
+      binary "cert_Linux_arm64 1.3.10", target: "cert"
     end
   end
 
