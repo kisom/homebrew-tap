@@ -3,7 +3,7 @@ cask "cert" do
   name "cert"
   desc "Certificate and TLS swiss army knife."
   homepage "https://github.com/kisom/cert"
-  version "1.3.8"
+  version "1.3.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,14 +13,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Darwin_x86_64 #{version}",
         using: :homebrew_curl
-      sha256 "fa2ec07b2dcedb4d09bb2406eaf1d413270ea2f27a6f9bc92628a20b0acbe604"
-      binary "cert_Darwin_x86_64 1.3.8", target: "cert"
+      sha256 "2e88be487584b7559d5a18c2dbf80bd6ccad2905392238981841396ca538766e"
+      binary "cert_Darwin_x86_64 1.3.9", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Darwin_arm64 #{version}",
         using: :homebrew_curl
-      sha256 "36080621296fddd15722debbe32db24b2f0da0d9603952303af1c13e5efb7cee"
-      binary "cert_Darwin_arm64 1.3.8", target: "cert"
+      sha256 "3b531904010fc6d7cddaaa8ab935d8c13718573990aaac9e508c509ccb0830fe"
+      binary "cert_Darwin_arm64 1.3.9", target: "cert"
     end
   end
 
@@ -28,14 +28,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Linux_x86_64 #{version}",
         using: :homebrew_curl
-      sha256 "917dd2e4505cfcd8f45197b8d3987bc01cc0eb5ce4db72045f14717c95fad26e"
-      binary "cert_Linux_x86_64 1.3.8", target: "cert"
+      sha256 "ae4ba8aee17012541951a50e74d28b540cc80cc83830f0641cab6002bb82787a"
+      binary "cert_Linux_x86_64 1.3.9", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_Linux_arm64 #{version}",
         using: :homebrew_curl
-      sha256 "20cf992712a44f4851ff1fc698d2a7830253a475eade7d98839e6a403c9cbea9"
-      binary "cert_Linux_arm64 1.3.8", target: "cert"
+      sha256 "733a29103a4b444f3dd34423d8a01363d70971bf9bb0e3ff6db752cc415ed281"
+      binary "cert_Linux_arm64 1.3.9", target: "cert"
     end
   end
 
