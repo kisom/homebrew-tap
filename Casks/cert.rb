@@ -3,24 +3,28 @@ cask "cert" do
   name "cert"
   desc "Certificate and TLS swiss army knife."
   homepage "https://github.com/kisom/cert"
-  version "1.3.13"
+  version "1.4.0"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
+  depends_on formula: [
+      "curl",
+    ]
+
   on_macos do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "889ab24b8cbbc1c52f4cc298d8454d7f5fca96d7fb3c017d720cfd6784210ceb"
-      binary "cert_darwin_amd64_v1.3.13", target: "cert"
+      sha256 "f57b24f00b1f14a1cdd5d4fcddc541a1e52c6daa71854d474922eafa61bddf23"
+      binary "cert_darwin_amd64_v1.4.0", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "2c4595da26ccb25308b0a56ebb3b23c4b606972ba3380525e51a5447a19452d6"
-      binary "cert_darwin_arm64_v1.3.13", target: "cert"
+      sha256 "836f0e1d66846fed2fd84f70c80c36b7661e5d27eb39474d0e78d0cf5f945be8"
+      binary "cert_darwin_arm64_v1.4.0", target: "cert"
     end
   end
 
@@ -28,14 +32,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "3043dccf5f1f05fce8a65388d6d77975d4649340076cbe7d2c519ec908e5a013"
-      binary "cert_linux_amd64_v1.3.13", target: "cert"
+      sha256 "f743e938cd677b6111dbc1642835732e248d9a1501629137d866dfd9eeb3c086"
+      binary "cert_linux_amd64_v1.4.0", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "d3d192e3de9a4a73a40fa02886a8cda64f3f17bc93467f912a6e8ef6a7e41da2"
-      binary "cert_linux_arm64_v1.3.13", target: "cert"
+      sha256 "989c8f2fbe2d5585644930193eed3d3126bcf55386782c2a7be5fcc5c0b1d29d"
+      binary "cert_linux_arm64_v1.4.0", target: "cert"
     end
   end
 
