@@ -3,7 +3,7 @@ cask "cert" do
   name "cert"
   desc "Certificate and TLS swiss army knife."
   homepage "https://github.com/kisom/cert"
-  version "1.3.12"
+  version "1.3.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,31 +11,31 @@ cask "cert" do
 
   on_macos do
     on_intel do
-      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_amd64_#{version}",
+      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "23d482393966ea6b98c01189946ae8724f68fae7de4ad6b07b9f7765607ba173"
-      binary "cert_darwin_amd64_1.3.12", target: "cert"
+      sha256 "889ab24b8cbbc1c52f4cc298d8454d7f5fca96d7fb3c017d720cfd6784210ceb"
+      binary "cert_darwin_amd64_v1.3.13", target: "cert"
     end
     on_arm do
-      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_arm64_#{version}",
+      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "81b669fd34e900421c9f89dbe76dbf5e05950e19a8ec409f9ae28287afc3bb6b"
-      binary "cert_darwin_arm64_1.3.12", target: "cert"
+      sha256 "2c4595da26ccb25308b0a56ebb3b23c4b606972ba3380525e51a5447a19452d6"
+      binary "cert_darwin_arm64_v1.3.13", target: "cert"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_amd64_#{version}",
+      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "bc7d7aa1a1bf190f9d443aed5a30c729ab9dc79a237639e852ac2cda94d8680c"
-      binary "cert_linux_amd64_1.3.12", target: "cert"
+      sha256 "3043dccf5f1f05fce8a65388d6d77975d4649340076cbe7d2c519ec908e5a013"
+      binary "cert_linux_amd64_v1.3.13", target: "cert"
     end
     on_arm do
-      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_arm64_#{version}",
+      url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "b7a823b1b97adbd8932932d437be5c8902e862bedc01c74caf8f6bcb5a5fcadd"
-      binary "cert_linux_arm64_1.3.12", target: "cert"
+      sha256 "d3d192e3de9a4a73a40fa02886a8cda64f3f17bc93467f912a6e8ef6a7e41da2"
+      binary "cert_linux_arm64_v1.3.13", target: "cert"
     end
   end
 
