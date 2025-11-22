@@ -20,6 +20,37 @@ class Cert < Formula
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X github.com/kisom/cert/cmd.Version=v#{version}")
+
+    bash_completion.install completion/cert.bash
+    zsh_completion.install  completion/cert.zsh
+    fish_completion.install completion/cert.fish => cert.fish
+
+    man1.install docs/man1/cert-completion-fish.1
+    man1.install docs/man1/cert-completion-powershell.1
+    man1.install docs/man1/cert-completion-zsh.1
+    man1.install docs/man1/cert-completion.1
+    man1.install docs/man1/cert-csrpub.1
+    man1.install docs/man1/cert-doc.1
+    man1.install docs/man1/cert-docgen.1
+    man1.install docs/man1/cert-dump.1
+    man1.install docs/man1/cert-expiry.1
+    man1.install docs/man1/cert-filetype.1
+    man1.install docs/man1/cert-gencsr.1
+    man1.install docs/man1/cert-genkey.1
+    man1.install docs/man1/cert-matchkey.1
+    man1.install docs/man1/cert-pem.1
+    man1.install docs/man1/cert-selfsign.1
+    man1.install docs/man1/cert-serial.1
+    man1.install docs/man1/cert-signcsr.1
+    man1.install docs/man1/cert-ski.1
+    man1.install docs/man1/cert-stealchain.1
+    man1.install docs/man1/cert-tlsinfo.1
+    man1.install docs/man1/cert-verify.1
+    man1.install docs/man1/cert-version.1
+    man1.install docs/man1/cert.1
+
+    man5.install docs/man5/cert-bundler.5
+    man5.install docs/man5/cert-request.5
   end
 
   test do
