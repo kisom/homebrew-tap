@@ -3,7 +3,7 @@ cask "cert" do
   name "cert"
   desc "Certificate and TLS swiss army knife."
   homepage "https://github.com/kisom/cert"
-  version "1.4.0"
+  version "1.4.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,14 +17,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "deb3e4e78674b33a325d705a3527aff40935ff6227f6268253657a7d19a671ff"
-      binary "cert_darwin_amd64_v1.4.0", target: "cert"
+      sha256 "fa4c04d0d6cd28d7452c5d64e43cc321c3afe56f357024d88316e3ef563a1d4b"
+      binary "cert_darwin_amd64_v1.4.1", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_darwin_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "843bbbc35061ef5e73ebf217b6e61cd3782df4916815c9e541d1427c8a190a7c"
-      binary "cert_darwin_arm64_v1.4.0", target: "cert"
+      sha256 "bb80ce56786421bab37a2866e1f2cf2482c504fe90c93554387d21e00a76d1b8"
+      binary "cert_darwin_arm64_v1.4.1", target: "cert"
     end
   end
 
@@ -32,14 +32,14 @@ cask "cert" do
     on_intel do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_amd64_v#{version}",
         using: :homebrew_curl
-      sha256 "69496769a513d3f457a44fc73b2689b0b6b49b6a4aa4f426ff124d0f3d8d8ec5"
-      binary "cert_linux_amd64_v1.4.0", target: "cert"
+      sha256 "342c7d4f258806a70243d502f6811d53b2535665dc2ffa9bba757ab885458c7b"
+      binary "cert_linux_amd64_v1.4.1", target: "cert"
     end
     on_arm do
       url "https://github.com/kisom/cert/releases/download/v#{version}/cert_linux_arm64_v#{version}",
         using: :homebrew_curl
-      sha256 "483e071706f9437d91c870f6357710af781691c6831a90fd9627b91cdd8fe6c1"
-      binary "cert_linux_arm64_v1.4.0", target: "cert"
+      sha256 "251faeeffa1903bc50f13a127105ac7cca41f09dd4fcfdf959a765f371b3dd48"
+      binary "cert_linux_arm64_v1.4.1", target: "cert"
     end
   end
 
