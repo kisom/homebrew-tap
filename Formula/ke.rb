@@ -5,7 +5,7 @@ class Ke < Formula
   license "ISC"
   head "https://github.com/kisom/ke"
   url "https://github.com/kisom/ke/archive/refs/tags/v1.0.5.tar.gz"
-  sha256 ""
+  sha256 "newsha"
   version "1.0.5"
 
   depends_on "cmake" => :build
