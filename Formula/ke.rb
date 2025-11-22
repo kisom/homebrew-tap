@@ -13,7 +13,7 @@ class Ke < Formula
   def install
     system "cmake", "-S", ".", "-B", "build"
     system "cmake", "--build", "build"
-    bin.install "build/bin/ke"
+    bin.install "build/ke"
 
     man1.install "ke.1"
   end
