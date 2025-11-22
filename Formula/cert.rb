@@ -21,9 +21,9 @@ class Cert < Formula
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X github.com/kisom/cert/cmd.Version=v#{version}")
 
-    bash_completion.install "completion/cert.bash"
-    zsh_completion.install  "completion/cert.zsh"
-    fish_completion.install "completion/cert.fish" => "cert.fish"
+    bash_completion.install "completions/cert.bash"
+    zsh_completion.install  "completions/cert.zsh"
+    fish_completion.install "completions/cert.fish" => "cert.fish"
 
     man1.install "docs/man1/cert-completion-fish.1"
     man1.install "docs/man1/cert-completion-powershell.1"
