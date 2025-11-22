@@ -4,9 +4,9 @@ class Ke < Formula
   head "https://github.com/kisom/ke.git", branch: "main"
   license "ISC"
   head "https://github.com/kisom/ke"
-  url "https://github.com/kisom/ke/archive/refs/tags/v1.0.9.tar.gz"
-  sha256 "4b5297583629632c86231535fd403f09263e9ed4ad32e2667a86050172fd27cb"
-  version "1.0.9"
+  url "https://github.com/kisom/ke/archive/refs/tags/v1.0.10.tar.gz"
+  sha256 "d439fd6ca67c9aebd3ef3cfc44057911b5946fd7fc2f7bec516917eafbdc129e"
+  version "1.0.10"
 
   depends_on "cmake" => :build
 
