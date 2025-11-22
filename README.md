@@ -1,6 +1,11 @@
 # Kisom Tap
 
-## How do I install these formulae?
+## Formulæ
+
++ cert: an X.509/TLS swiss army knife
++ ke: kyle's text editor
+
+## How do I install these formulæ?
 
 `brew install kisom/tap/<formula>`
 
