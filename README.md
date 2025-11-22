@@ -1,9 +1,9 @@
-# Kisom Tap
+# Kyle's Homebrew Tap
 
 ## Formulæ
 
 + cert: an X.509/TLS swiss army knife
-+ ke: kyle's text editor
++ ke: kyle's editor
 
 ## How do I install these formulæ?
 
