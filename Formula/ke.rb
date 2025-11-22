@@ -14,6 +14,8 @@ class Ke < Formula
     system "cmake", "-S", ".", "-B", "build"
     system "cmake", "--build", "build"
     bin.install "build/bin/ke"
+
+    man1.install "ke.1"
   end
 
   test do
