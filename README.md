@@ -2,8 +2,8 @@
 
 ## Formulæ
 
-+ cert: an X.509/TLS swiss army knife
-+ ke: kyle's editor
++ [cert](https://github.com/kisom/cert): an X.509/TLS swiss army knife
++ [ke](https://github.com/kisom/ke): kyle's editor
 
 ## How do I install these formulæ?
 
