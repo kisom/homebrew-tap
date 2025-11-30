@@ -11,7 +11,7 @@ class Ke < Formula
   depends_on "cmake" => :build
 
   def install
-    system "cmake", "-S", ".", "-B", "build"
+    system "cmake", "-S", ".", "-B", "build", "-DENABLE_ASAN=ON"
     system "cmake", "--build", "build"
     bin.install "build/ke"
 
