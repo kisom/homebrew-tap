@@ -19,7 +19,7 @@ class Kte < Formula
     bin.install "build/kte"
     cp_r app_name, "#{ENV["HOME"]}/Applications/"
 
-    man1.install "kte.1"
+    man1.install "docs/kte.1"
   end
 
   test do
