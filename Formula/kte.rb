@@ -17,9 +17,9 @@ class Kte < Formula
     system "cmake", "-S", ".", "-B", "build", "-DBUILD_GUI=ON", "-DKTE_USE_PIECE_TABLE=ON"
     system "cmake", "--build", "build"
     bin.install "build/kte"
-    bin.install "build/kge"
+    cp_r app_name, "#{ENV["HOME"]}/Applications/"
 
-    man1.install "ke.1"
+    man1.install "kte.1"
   end
 
   test do
