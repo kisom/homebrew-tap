@@ -5,7 +5,7 @@ class Kte < Formula
   license "ISC"
   head "https://github.com/kisom/ke"
   url "https://github.com/kisom/kte/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 ""
+  sha256 "f598302f63f0fce9621187f028ffa5aaffc553c0d3a5a3ebdc3e65042fe02828"
   version "1.0.4"
 
   depends_on "cmake" => :build
