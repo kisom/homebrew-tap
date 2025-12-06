@@ -1,8 +1,8 @@
 cask "kge-qt" do
-  version "1.5.0"
-  sha256 "df1d2bd1711a3be08ff168444c90a26cee8e72d390e937bb6d222d615e18fe5b"
+  version "1.5.1"
+  sha256 "03c3008c377dbd43d2a833ad30b54c5490e50bb34633c0f20798c12caa8e19e6"
 
-  url "https://github.com/kisom/kte/releases/download/v1.5.0/kge-qt.app.zip"
+  url "https://github.com/kisom/kte/releases/download/v1.5.1/kge-qt.app.zip"
   desc "kyle's text editor (Qt build)"
   homepage "https://github.com/kisom/kte"
 
