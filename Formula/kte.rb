@@ -4,9 +4,9 @@ class Kte < Formula
   head "https://github.com/kisom/kte.git", branch: "main"
   license "ISC"
   head "https://github.com/kisom/ke"
-  url "https://github.com/kisom/kte/archive/refs/tags/v1.5.4.tar.gz"
-  sha256 "4490a6167e27d2d9a7aeca404bc532e2757a74ce0955b481436911ba2257f4cd"
-  version "1.5.4"
+  url "https://github.com/kisom/kte/archive/refs/tags/v1.5.5.tar.gz"
+  sha256 "ebf26d38a1c0f012f6e4fd0af8e71c13da63c7e1d8fe122d9facbd60f46f9b22"
+  version "1.5.5"
 
   depends_on "cmake" => :build
   depends_on "sdl2"
