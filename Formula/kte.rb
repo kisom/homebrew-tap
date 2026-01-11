@@ -14,7 +14,7 @@ class Kte < Formula
   depends_on "freetype"
 
   def install
-    system "cmake", "-S", ".", "-B", "build", "-DKTE_USE_PIECE_TABLE=ON", "-DBUILD_GUI=ON"
+    system "cmake", "-S", ".", "-B", "build", "-DKTE_USE_PIECE_TABLE=ON", "-DBUILD_GUI=OFF"
     system "cmake", "--build", "build"
     bin.install "build/kte"
     man1.install "docs/kte.1"
