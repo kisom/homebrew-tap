@@ -6,9 +6,9 @@ class Cert < Formula
   homepage "https://github.com/kisom/cert"
   license "Apache-2.0"
   head "https://github.com/kisom/cert"
-  url "https://github.com/kisom/cert/archive/refs/tags/v1.7.0.tar.gz"
-  sha256 "df9e213cb89ffb6bac469c9ec82e38c90653906efb88908a75a6724dadc3035b"
-  version "1.7.0"
+  url "https://github.com/kisom/cert/archive/refs/tags/v1.7.1.tar.gz"
+  sha256 "db5a45f74bd495828655e2173f044d5a3fc9ff89cdbc6c6d90eda0251ebbfe63"
+  version "1.7.1"
 
   depends_on "go" => :build
 
