@@ -1,8 +1,8 @@
 cask "kge" do
-  version "1.6.5"
-  sha256 "73b8572c2aee103449371e5df37ea6b89a0b770a10cd73b2448261e14cd6735a"
+  version "1.6.6"
+  sha256 "5ef407603dba61c22ec1652681f81cca055348df6f4e489c54091051a76fbe19"
 
-  url "https://github.com/kisom/kte/releases/download/v1.6.5/kge.app.zip"
+  url "https://github.com/kisom/kte/releases/download/v1.6.6/kge.app.zip"
   desc "kyle's text editor"
   homepage "https://github.com/kisom/kte"
 
