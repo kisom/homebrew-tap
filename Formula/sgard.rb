@@ -1,7 +1,6 @@
 class Sgard < Formula
   desc "Shimmering Clarity Gardener: dotfile management"
   homepage "https://github.com/kisom/sgard"
-  license "ISC"
   head "https://github.com/kisom/sgard"
   url "https://github.com/kisom/sgard/archive/refs/tags/v0.1.0.tar.gz"
   sha256 ""
