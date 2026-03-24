@@ -6,6 +6,7 @@
 + [ke](https://github.com/kisom/ke): kyle's editor
 + [kte](https://github.com/kisom/kte): kyle's text editor
 + [lector](https://github.com/kisom/lector): standalone markup renderer/viewer.
++ [sgard](https://github.com/kisom/sgard): dot-files manager
 
 ## Casks
 
