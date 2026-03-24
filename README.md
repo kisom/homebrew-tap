@@ -5,6 +5,7 @@
 + [cert](https://github.com/kisom/cert): an X.509/TLS swiss army knife
 + [ke](https://github.com/kisom/ke): kyle's editor
 + [kte](https://github.com/kisom/kte): kyle's text editor
++ [lector](https://github.com/kisom/lector): standalone markup renderer/viewer.
 
 ## Casks
 
