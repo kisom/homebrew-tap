@@ -2,9 +2,9 @@ class Sgard < Formula
   desc "Shimmering Clarity Gardener: dotfile management"
   homepage "https://github.com/kisom/sgard"
   head "https://github.com/kisom/sgard"
-  url "https://github.com/kisom/sgard/archive/refs/tags/v3.1.2.tar.gz"
+  url "https://github.com/kisom/sgard/archive/refs/tags/v3.1.3.tar.gz"
   sha256 ""
-  version "3.1.2"
+  version "3.1.3"
 
   depends_on "go" => :build
 
