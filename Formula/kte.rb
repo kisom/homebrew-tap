@@ -1,17 +1,15 @@
 class Kte < Formula
-  desc "ke - kyle's editor"
+  desc "Kyle's text editor"
   homepage "https://git.wntrmute.dev/kyle/kte"
-  head "https://github.com/kisom/kte.git", branch: "main"
-  license "ISC"
-  head "https://github.com/kisom/ke"
   url "https://github.com/kisom/kte/archive/refs/tags/v1.12.0.tar.gz"
   sha256 "ee670a9adf4fc9f46ee918a934f6b24c479869165e82bbcf85e0be69202c2447"
-  version "1.12.0"
+  license "ISC"
+  head "https://github.com/kisom/kte.git", branch: "master"
 
   depends_on "cmake" => :build
-  depends_on "sdl2"
-  depends_on "ncurses"
   depends_on "freetype"
+  depends_on "ncurses"
+  depends_on "sdl2"
 
   def install
     system "cmake", "-S", ".", "-B", "build", "-DKTE_USE_PIECE_TABLE=ON", "-DBUILD_GUI=OFF"
