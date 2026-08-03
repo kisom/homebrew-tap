@@ -7,9 +7,7 @@ class Kte < Formula
   head "https://github.com/kisom/kte.git", branch: "master"
 
   depends_on "cmake" => :build
-  depends_on "freetype"
   depends_on "ncurses"
-  depends_on "sdl2"
 
   def install
     system "cmake", "-S", ".", "-B", "build", "-DKTE_USE_PIECE_TABLE=ON", "-DBUILD_GUI=OFF"
@@ -19,7 +17,6 @@ class Kte < Formula
   end
 
   test do
-    # Placeholder test; adjust based on what the project installs (e.g., executable or library)
-    return "true"
+    assert_match "kte v#{version}", shell_output("#{bin}/kte --version")
   end
 end
