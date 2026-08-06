@@ -1,18 +1,16 @@
 class Lector < Formula
   desc "Read-only document viewer for Markdown, reStructuredText, and org-mode"
   homepage "https://github.com/kisom/lector"
+  url "https://github.com/kisom/lector/archive/refs/tags/v1.3.5.tar.gz"
+  sha256 "b0fb15f7823ec1850cecb2de3c8d576f1635b443625ef32aeb1b7d8495241fc2"
   license "MIT"
-  url "https://github.com/kisom/lector/archive/refs/tags/v1.3.4.tar.gz"
-  sha256 "1be5d4f7a7ffd931bcde700bda81623da1b9883efe0fefeb4f83f61e705aaa1d"
-  version "1.3.4"
   head "https://github.com/kisom/lector.git", branch: "main"
 
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "--package", "lector-gui", "--package", "lector-tui"
-    bin.install "target/release/lector"
-    bin.install "target/release/clector"
+    system "cargo", "install", *std_cargo_args(path: "crates/lector-gui")
+    system "cargo", "install", *std_cargo_args(path: "crates/lector-tui")
   end
 
   test do
