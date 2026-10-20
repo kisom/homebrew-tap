@@ -1,8 +1,8 @@
 class Lector < Formula
   desc "Read-only document viewer for Markdown, reStructuredText, and org-mode"
   homepage "https://github.com/kisom/lector"
-  url "https://github.com/kisom/lector/archive/refs/tags/v1.3.7.tar.gz"
-  sha256 "c949d56d12c17d5e02a4ca8fbbda445e94f9d51e9423310e73bcbe3c02a4cdf8"
+  url "https://github.com/kisom/lector/archive/refs/tags/v1.3.8.tar.gz"
+  sha256 "7d6c05e94870a0a4641b6ecfe754e8187b2c9227f1f8f884bba43a0b2f236bd4"
   license "MIT"
   head "https://github.com/kisom/lector.git", branch: "main"
 
