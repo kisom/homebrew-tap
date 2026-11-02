@@ -1,8 +1,8 @@
 class Kte < Formula
   desc "Kyle's text editor"
   homepage "https://git.wntrmute.dev/kyle/kte"
-  url "https://github.com/kisom/kte/archive/refs/tags/v1.13.0.tar.gz"
-  sha256 "77cc736bdd52decc7ac66e463eca169b490483cd0b9ece7d021deb82fe3dcb01"
+  url "https://github.com/kisom/kte/archive/refs/tags/v1.14.0.tar.gz"
+  sha256 "e6b7ec2571bbc13bedb0d0251b487fbb5cd62b6934c03a88cb5a21db579aa834"
   license "ISC"
   head "https://github.com/kisom/kte.git", branch: "master"
 
