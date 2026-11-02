@@ -1,6 +1,6 @@
 cask "kge" do
-  version "1.13.0"
-  sha256 "4698c54f597bdea97f993506f2775ae21c978ce8fa9d34dd7ad92d32a9611e73"
+  version "1.14.0"
+  sha256 "238cbde75dafcdd640db081dc44b5629a4232369189e33092ec216c789ca3c35"
 
   url "https://github.com/kisom/kte/releases/download/v#{version}/kge.app.zip"
   name "kge"
