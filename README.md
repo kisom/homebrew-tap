@@ -3,7 +3,7 @@
 ## Formulæ
 
 + [cert](https://github.com/kisom/cert): an X.509/TLS swiss army knife
-+ [kame](https://github.com/kisom/kame): kyle's marginalia editor, with kame-site
++ [kame-site](https://github.com/kisom/kame): the static site generator for kame notebooks
 + [ke](https://github.com/kisom/ke): kyle's editor
 + [kte](https://github.com/kisom/kte): kyle's text editor
 + [lector](https://github.com/kisom/lector): standalone markup renderer/viewer.
@@ -11,7 +11,7 @@
 
 ## Casks
 
-+ [kame](https://github.com/kisom/kame): kyle's marginalia editor, the macOS app
++ [kame](https://github.com/kisom/kame): kyle's marginalia editor (`brew install kisom/tap/kame` installs kame.app)
 + [kge](https://github.com/kisom/kge): kyle's text editor
 
 ## How do I install these formulæ?
