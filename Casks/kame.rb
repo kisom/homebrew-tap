@@ -12,9 +12,9 @@ cask "kame" do
 
   app "kame.app"
 
-  postflight do
-    system_command "xattr",
-                   args: ["-r", "-d", "com.apple.quarantine", "#{staged_path}/kame.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-d", "-r", "com.apple.quarantine", "{{appdir}}/kame.app"],
+        must_succeed: false
   end
 end

@@ -4,13 +4,16 @@ cask "kge" do
 
   url "https://github.com/kisom/kte/releases/download/v#{version}/kge.app.zip"
   name "kge"
-  desc "kyle's text editor"
+  desc "Kyle's text editor"
   homepage "https://github.com/kisom/kte"
 
+  depends_on :macos
+
   app "kge.app"
-  postflight do
-    system_command "xattr",
-                   args: ["-r", "-d", "com.apple.quarantine", "#{staged_path}/kge.app"],
-                   sudo: false
+
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-d", "-r", "com.apple.quarantine", "{{appdir}}/kge.app"],
+        must_succeed: false
   end
 end
