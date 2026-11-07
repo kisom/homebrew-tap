@@ -1,8 +1,8 @@
 class KameSite < Formula
   desc "Static site generator for kame documents and notebooks"
   homepage "https://github.com/kisom/kame"
-  url "https://github.com/kisom/kame/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "3a2e7d04cab85607f7be089a8b942dd472b358bbe471bec0895320d1494bcee3"
+  url "https://github.com/kisom/kame/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "e01892cce6fc7590dcaf65b5df4c264d932b36793324a8a8f403a8a9e9feabde"
   license all_of: ["Apache-2.0", "OFL-1.1"]
   head "https://github.com/kisom/kame.git", branch: "master"
 

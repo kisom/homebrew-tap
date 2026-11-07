@@ -1,6 +1,6 @@
 cask "kame" do
-  version "0.1.2"
-  sha256 "49d595ba8af15246fb6d459c12a869186fcdf395789f1b9dd7a72c55301fd2cd"
+  version "0.2.0"
+  sha256 "69d2eeff1b56a2e34df42e89078efd1933278c6c9357d341b04abc1f4ac75af3"
 
   url "https://github.com/kisom/kame/releases/download/v#{version}/kame.app.zip"
   name "kame"
